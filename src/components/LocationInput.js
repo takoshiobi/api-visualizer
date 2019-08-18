@@ -15,7 +15,7 @@ class LocationInput extends Component {
       }
     
       handleSubmit(event) {
-        alert('Sent location: ' + this.state.value);
+        alert('Current location: ' + this.state.value);
         event.preventDefault();
       }
     
